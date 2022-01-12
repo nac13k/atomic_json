@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'activerecord', '~> 6.1.3'
-  spec.add_runtime_dependency 'activesupport', '~> 6.1.3'
+  spec.add_dependency 'activerecord', '>= 6.1.0'
+  spec.add_runtime_dependency 'activesupport', '>= 6.1.0'
   spec.add_runtime_dependency 'pg', '>= 0.18.1'
   spec.add_development_dependency 'bundler', '~> 1.16'
   spec.add_development_dependency 'byebug', '~> 10.0', '>= 10.0.2'
